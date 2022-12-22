@@ -37,3 +37,16 @@
 
 # Creating a tab component
     ng g c shared/Tab
+
+# Creating login and register form
+    ng g c user/login
+    ng g c user/register
+
+# Creating a presentational component to output field errors in forms
+    ng g c shared/Input
+
+# Input masking for phone numbers
+    npm i ngx-mask
+
+# Creating alert component
+    ng g c shared/alert
